@@ -1,0 +1,12 @@
+class Banka():
+def __init__(self,isim,para,adres):
+self.isim=isim
+self.para=para
+self.adres=adres
+hesap1=Banka("Sinan",1000,"istanbul")
+hesap2=Banka("Ayşe",5000,"Erzurum")
+hesap1.para
+hesap2.para=hesap2.para+hesap1.para #sinan'ın parası kalmadı
+hesap2.para
+hesap1.para=0
+hesap1.para
